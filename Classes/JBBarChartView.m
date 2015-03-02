@@ -549,7 +549,7 @@ static UIColor *kJBBarChartViewDefaultBarColor = nil;
     }
     else
     {
-        selectionViewFrame.origin.y = self.headerView.frame.size.height + self.headerPadding;
+        selectionViewFrame = barViewFrame;
     }
     
     self.verticalSelectionView.frame = selectionViewFrame;
